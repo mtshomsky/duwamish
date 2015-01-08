@@ -22,7 +22,7 @@ RUN apt-get install -y tar git curl wget dialog net-tools build-essential
 RUN apt-get install -y python python-dev python-distribute python-pip
 
 # If you want to deploy from an online host git repository, you can use the following command to clone:
-RUN git clone https://github.com/smartercleanup/duwamish.git && cd duwamish && git checkout docker-deploy && cd -
+RUN git clone https://github.com/smartercleanup/duwamish.git && cd duwamish && git checkout docker-deploy-dev && cd -
 
 # Do we need this?
 # ADD /duwamish /duwamish
